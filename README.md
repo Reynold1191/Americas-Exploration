@@ -2,7 +2,6 @@
 
 General information
 - Affiliation: Department of Computer Science, Faculty of Information Technology, University of Science, Vietnam National University, Ho Chi Minh City
-- *Laboratory instructor*: **Le Nhut Nam (Lê Nhựt Nam)**
 - *LICENSE*
 ```
 Lab 02 - Introduction To Data Science/ CSC14119 © 2023 by Department of Computer Science, Faculty of Information Technology, University of Science, Vietnam National University, Ho Chi Minh City is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International
@@ -26,36 +25,6 @@ conda activate min_ds-env
 # install dependencies
 pip install -r requirements.txt
 ```
-
-### <font color=lightblue>How to complete this assignment?</font>
-
-You will do your assignment directly in this notebook. First, fill in your name and ID at the beginning of the file. In the notebook, fill in places that say:
-```python
-#TODO
-```
-
-During your work, you can print out the result, create more cells to test, or create more functions to handle things. Please note that <font color=red>you are not allowed to delete or modify my code cells</font> (except in the case that mentioned above). Let remove `raise NotImplementedError("not implement")` when running code.
-
-Always press `Ctrl + S` in order to save your work.
-
-**Notes:** 
-
-    *  Copy means zero
-    *  You have to submit your work on time. No exception
-    *  Any questions about your grade are based on the assignment submitted on Moodle
-    *  Wrong submission takes you -2 points
-
-### <font color=lightblue>How to submit this assignment?</font>
-
-When grading your assignment, I will choose `Kernel` - `Restart Kernel & Run All Cells` in order to restart the kernel and run all cells in your notebook. Therefore, you should do that before submitting to ensure that the outputs are all as expected.
-
-After that, you make a submited direction as follow:
-
-- Folder `StudentCode` (e.g. If your student code is 1234567, then your folder is `1234567`)
-
-Finally, you compress your folder (`StudentCode`) and submit on Moodle. **The extension of the file is nothing else but `.zip`.**
-
-<font color=red>Please strictly follow the submission rules.</font>
 
 ## <font color=lightblue>Laboratory structure explanation</font>
 
@@ -103,10 +72,4 @@ This lab project structure is built under the [Cookiecutter Data Science](https:
 │   └── visualization_module  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 ```
-
-## <font color=lightblue>Contact information</font>
-
-If you have any concerns with this assignment, please write an email and send it to class lecturer or laboratory instructor in order to get useful advices
-- Class lecturer: **Le Ngoc Thanh** (lnthanh@fit.hcmus.edu.vn)
-- Course laboratory instructor: **Le Nhut Nam** (lenam.fithcmus@gmail.com)
 
